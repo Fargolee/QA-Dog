@@ -1,37 +1,39 @@
-selenium4 指定谷歌（chrome）目录和驱动（chromedirver）目录
-很多博客的selenium是3，会使用chrome_options,chrome_options，这样会报错，因为在4中，这两个参数已经被弃用
-
-
+很多博客的`selenium`是3，会使用`chrome_options`,`chrome_options`，这样会报错，因为在4中，这两个参数已经被弃用
 注：
 
-在默认路径下的chrome会自动更新，如果是大版本更新需要重新下载对应版本的chromedriver
-不在默认路径下的chrome则不会自动更新
+-   在默认路径下的`chrome`会自动更新，如果是大版本更新需要重新下载对应版本的`chromedriver`
+-   不在默认路径下的`chrome`则不会自动更新
 
 环境：
 
-selenium：4.19.0
-
-python：3.12.0
-
-windows 10
-
+-   selenium：4.19.0
+    
+-   python：3.12.0
+    
+-   windows 10
+    
 
 这里针对下列四种不同的情况，给出相应的解决方式
 
-两个都不缺
-chrome不是默认路径
-缺少chromedriver路径（可以通过指定环境变量解决，这里给出代码解决方案）
-两个缺少
+-   两个都不缺
+-   `chrome`不是默认路径
+-   缺少`chromedriver`路径（可以通过指定环境变量解决，这里给出代码解决方案）
+-   两个缺少
 
-1、chrome为默认路径，chromedriver已经设为环境变量
+1、`chrome`为默认路径，`chromedriver`已经设为环境变量
 
+```python
 from selenium  import webdriver
 
 driver = webdriver.Chrome()	# 初始化 WebDriver
 driver.get('http://www.baidu.com')	# 打开网页
 driver.quit()	# 关闭浏览器
-2、chrome不在默认路径，chromedriver已经设为环境变量
 
+```
+
+2、`chrome`不在默认路径，`chromedriver`已经设为环境变量
+
+```python
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -47,8 +49,12 @@ driver.get('http://www.baidu.com')
 
 # 关闭浏览器
 driver.quit()
-3、chrome为默认路径，chromedriver没有设为环境变量
 
+```
+
+3、`chrome`为默认路径，`chromedriver`没有设为环境变量
+
+```python
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
@@ -64,8 +70,12 @@ driver.get('http://www.baidu.com')
 
 # 关闭浏览器
 driver.quit()
-4、chrome不在默认路径，chromedriver没有设为环境变量
 
+```
+
+4、`chrome`不在默认路径，`chromedriver`没有设为环境变量
+
+```python
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -86,3 +96,5 @@ driver.get('http://www.baidu.com')
 
 # 关闭浏览器
 driver.quit()
+
+```
