@@ -171,6 +171,8 @@
   },
   "active": "00dc156df5d3cde6",
   "lastOpenFiles": [
+    "webuiauto/01.py~",
+    "webuiauto/01.py",
     "笔记.md",
     "note/selenium4 指定谷歌（chrome）目录和驱动（chromedirver）目录.md",
     "Python pip 一键换下载源工具/config/ustc/pip.ini",
@@ -181,7 +183,6 @@
     "Python pip 一键换下载源工具/config/aliyun/pip.ini",
     "Python pip 一键换下载源工具/config/douban",
     "Python pip 一键换下载源工具/config/aliyun",
-    "Python pip 一键换下载源工具/config",
-    "Python pip 一键换下载源工具/必须解压文件夹所有文件再运行程序！.txt"
+    "Python pip 一键换下载源工具/config"
   ]
 }
