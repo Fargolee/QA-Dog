@@ -14,7 +14,7 @@ ser.executable_path = r"D:\Chrome\Webdriver\134\chromedriver.exe"	# 指定 Chrom
 driver = webdriver.Chrome(options=opt, service=ser)
 
 # 打开网页
-driver.get('http://www.baidu.com')
+driver.get('http://localhost/ecshop/admin/index.php')
 
 # 关闭浏览器
 # driver.quit()
