@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a33c9864c3e4fc36",
+        "id": "592cbe1c6978f9c4",
         "type": "tabs",
         "children": [
           {
-            "id": "6251a7497743258e",
+            "id": "611c025cdde9da1d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,7 +165,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6251a7497743258e",
+  "active": "611c025cdde9da1d",
   "lastOpenFiles": [
     "note/Greasy Fork镜像.md",
     "note/selenium4 指定谷歌（chrome）目录和驱动（chromedirver）目录.md",
