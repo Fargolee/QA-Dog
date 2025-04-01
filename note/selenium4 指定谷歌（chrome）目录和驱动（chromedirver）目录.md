@@ -1,4 +1,5 @@
 很多博客的`selenium`是3，会使用`chrome_options`,`chrome_options`，这样会报错，因为在4中，这两个参数已经被弃用
+https://www.cnblogs.com/IFS-/p/18141955
 注：
 
 -   在默认路径下的`chrome`会自动更新，如果是大版本更新需要重新下载对应版本的`chromedriver`
