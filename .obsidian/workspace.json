@@ -11,10 +11,14 @@
             "id": "611c025cdde9da1d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "11.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "11"
             }
           }
         ]
@@ -167,6 +171,7 @@
   },
   "active": "611c025cdde9da1d",
   "lastOpenFiles": [
+    "11.md",
     "note/Greasy Fork镜像.md",
     "note/selenium4 指定谷歌（chrome）目录和驱动（chromedirver）目录.md",
     "webuiauto/01.py~",
