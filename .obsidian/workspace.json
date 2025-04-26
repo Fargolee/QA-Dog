@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "11"
             }
+          },
+          {
+            "id": "150797b3c98f7612",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,7 +182,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "611c025cdde9da1d",
+  "active": "150797b3c98f7612",
   "lastOpenFiles": [
     "11.md",
     "note/Greasy Fork镜像.md",
