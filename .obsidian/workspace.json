@@ -88,7 +88,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -185,15 +186,15 @@
   },
   "active": "150797b3c98f7612",
   "lastOpenFiles": [
+    "11.md",
+    "笔记.md",
     "Pasted image 20250426221221.png",
     "Pasted image 20250426220317.png",
     "Pasted image 20250426220209.png",
-    "11.md",
     "note/Greasy Fork镜像.md",
     "note/selenium4 指定谷歌（chrome）目录和驱动（chromedirver）目录.md",
     "webuiauto/01.py~",
     "webuiauto/01.py",
-    "笔记.md",
     "Python pip 一键换下载源工具/config/ustc/pip.ini",
     "Python pip 一键换下载源工具/config/ustc",
     "Python pip 一键换下载源工具/config/tsinghua/pip.ini",
